@@ -1,5 +1,5 @@
-var React = require('react');//React.jsのライブラリをimport
-var ReactDOM = require('react-dom');
+import React from "react";
+import ReactDOM from "react-dom";
 
 //コンポーネントを定義
 var Index = React.createClass({

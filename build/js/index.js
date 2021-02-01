@@ -1,17 +1,15 @@
-'use strict';
-
-var React = require('react'); //React.jsのライブラリをimport
-var ReactDOM = require('react-dom');
+import React from "react";
+import ReactDOM from "react-dom";
 
 //コンポーネントを定義
 var Index = React.createClass({
-  displayName: 'Index',
+  displayName: "Index",
 
-  render: function render() {
+  render: function () {
     return React.createElement(
-      'p',
+      "p",
       null,
-      'hoge'
+      "hoge"
     );
   }
 });
