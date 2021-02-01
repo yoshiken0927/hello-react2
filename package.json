@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d build"
+    "start": "webpack-dev-server -d --open",
+    "build": "webpack"
   },
   "babel": {
-    "presets": [
-      "react"
-    ]
+    "presets": ["@babel/preset-react"]
   },
   "author": "",
   "license": "ISC",
@@ -19,8 +18,18 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
     "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
     "babel-preset-react": "^6.24.1",
-    "express": "^4.17.1"
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "express": "^4.17.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
