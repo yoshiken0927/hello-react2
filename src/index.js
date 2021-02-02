@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 //コンポーネントを定義
 function Index() {
   return (
-    <p>hogefugaf</p>
+    <p>hogef</p>
   );
 };
 
